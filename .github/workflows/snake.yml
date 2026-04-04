@@ -1,0 +1,30 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: dhakksinesh
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Push snake to output branch
+        run: |
+          cd dist
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git checkout -b output
+          git add .
+          git commit -m "Update snake animation"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/dhakksinesh/dhakksinesh.git output
