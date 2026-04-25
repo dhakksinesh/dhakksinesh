@@ -62,9 +62,10 @@ dhakksinesh = {
 
 | Project | Description | Stack | Demo |
 |-----------|---------------|-------|------|
-| **[HireFlow](https://github.com/dhakksinesh/hireflow)** | AI-powered hiring workflow tool to streamline recruitment and candidate management | `Python` `RAG` `Embeddings` `Vector-DB` `Score-Fusion` `rank_bm25` `Gemini` | [Here](https://hireflow-dkxy.streamlit.app/) |
-| **[SpecSense-AI](https://github.com/dhakksinesh/specsense-ai)** | AI powered product recommendation system that understands natural language queries and matches them with structured product catalog data | `Python` `Gemini` `Streamlit` `Pydantic` | [Here](https://specsense-ai-dkxy.streamlit.app/) |
-| **[ScamGuard-AI](https://github.com/dhakksinesh/scamguard-ai)** | AI powered intelligent app that detects whether a message is a scam or legitimate, built with Google Gemini API | `Python` `Gemini` `Streamlit` `Pydantic` | [Here](https://scamguard-ai-dkxy.streamlit.app/) |
+| **[Askly](https://github.com/dhakksinesh/askly)** | AI-powered RAG helpdesk assistant that indexes knowledge base articles using hybrid search | `Python` `Gemini` `Pincone` `LlamaIndex` `RRF` `Embeddings` `rank_bm25` `LangChain` `Pandas` `RAGAS` `Streamlit` | [Here](https://askly-dkxy.streamlit.app/) |
+| **[HireFlow](https://github.com/dhakksinesh/hireflow)** | AI-powered hiring workflow tool to streamline recruitment and candidate management | `Python` `LangChain` `Embeddings` `Pincone` `RRF` `rank_bm25` `Gemini` `RAGAS` `Streamlit` | [Here](https://hireflow-dkxy.streamlit.app/) |
+| **[SpecSense-AI](https://github.com/dhakksinesh/specsense-ai)** | AI-powered product recommendation system that understands natural language queries and matches them with structured product catalog data | `Python` `Gemini` `Streamlit` `Pydantic` | [Here](https://specsense-ai-dkxy.streamlit.app/) |
+| **[ScamGuard-AI](https://github.com/dhakksinesh/scamguard-ai)** | AI-powered intelligent app that detects whether a message is a scam or legitimate, built with Google Gemini API | `Python` `Gemini` `Streamlit` `Pydantic` | [Here](https://scamguard-ai-dkxy.streamlit.app/) |
 
 ---
 
